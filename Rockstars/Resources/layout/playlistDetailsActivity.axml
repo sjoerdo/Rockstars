@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#C3C1C1"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/playlistTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Playlist titel" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+      android:textSize="20dp"
+      android:paddingTop="20dp"
+      android:text="Songs" /> />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/playlistSongs"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddSongToPlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:tint="@android:color/white"
+        android:src="@android:drawable/ic_input_add" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SearchView
+       android:id="@+id/searchView"
+       android:layout_width="match_parent"
+       android:elevation="2dp"
+       android:background="#7F7F7F"
+       android:padding="5dp"
+       android:hint="@string/search_hint"
+       android:layout_height="40dp">
+    </SearchView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/artistRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />  
+</LinearLayout>
