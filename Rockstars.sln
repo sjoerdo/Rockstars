@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockstars.Droid", "Rockstar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockstars.UnitTest", "Rockstars.UnitTest\Rockstars.UnitTest.csproj", "{A0675240-150D-48EC-8408-E83A718EBD36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockstars.Implementation", "Rockstars.Implementation\Rockstars.Implementation.csproj", "{12DAAE33-B4A9-4A55-8718-3613C8BB0306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{A0675240-150D-48EC-8408-E83A718EBD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0675240-150D-48EC-8408-E83A718EBD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0675240-150D-48EC-8408-E83A718EBD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DAAE33-B4A9-4A55-8718-3613C8BB0306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DAAE33-B4A9-4A55-8718-3613C8BB0306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DAAE33-B4A9-4A55-8718-3613C8BB0306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DAAE33-B4A9-4A55-8718-3613C8BB0306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

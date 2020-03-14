@@ -68,24 +68,11 @@
     <Compile Include="Extensions\ObservableExtensions.cs" />
     <Compile Include="Fragments\ArtistsOverviewFragment.cs" />
     <Compile Include="Fragments\PlaylistOverviewFragment.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Datasource\Data.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Managers\PlaylistManager.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Managers\IPlaylistManager.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Managers\IMusicManager.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Managers\MusicManager.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Models\Artist.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Models\Playlist.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\Models\Song.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Helper\ArtistFilter.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\ViewModels\IPlaylistViewModel.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\ViewModels\PlaylistViewModel.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\ViewModels\ViewModelBase.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\ViewModels\ArtistsViewModel.cs" />
-    <Compile Include="Implementation %28normally in a seperate project%29\ViewModels\IArtistsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\simple_fragment.axml" />
@@ -165,6 +152,12 @@
       <Version>28.0.0.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rockstars.Implementation\Rockstars.Implementation.csproj">
+      <Project>{12DAAE33-B4A9-4A55-8718-3613C8BB0306}</Project>
+      <Name>Rockstars.Implementation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
