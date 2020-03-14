@@ -75,7 +75,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\simple_fragment.axml" />
     <AndroidResource Include="Resources\layout\artistsOverviewFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
