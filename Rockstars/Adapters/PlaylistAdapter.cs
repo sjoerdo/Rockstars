@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-using Android.Support.V7.Widget;
+﻿using Android.Support.V7.Widget;
 using Android.Views;
 using Rockstars.ViewModels;
+using System;
+using System.Linq;
 
 namespace Rockstars.Adapters
 {

@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using Rockstars.Implementation.Datasource;
 using Rockstars.Implementation.Models;
 using Rockstars.Implementation.ViewModels;
-using Rockstars.Implementation.Datasource;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Rockstars.Implementation.Managers
 {

@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using Rockstars.Implementation.Models;
-using Autofac;
-using Rockstars.Implementation.ViewModels;
-using System.Linq;
+﻿using Autofac;
 using Rockstars.Implementation.Managers;
+using Rockstars.Implementation.Models;
+using Rockstars.Implementation.ViewModels;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Rockstars.ViewModels
 {
@@ -61,8 +61,7 @@ namespace Rockstars.ViewModels
         /// <inheritdoc/>
         public IList<Song> GetSongsFromArtist(int artistId)
         {
-              return _musicManager.GetSongsFromArtist(artistId);
+            return _musicManager.GetSongsFromArtist(artistId);
         }
     }
 }
- 

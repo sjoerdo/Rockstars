@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Android.Support.V7.Widget;
+﻿using Android.Support.V7.Widget;
 using Android.Views;
 using Rockstars.Implementation.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Rockstars.Adapters
 {
@@ -23,7 +23,8 @@ namespace Rockstars.Adapters
         {
             get
             {
-                if (_songs != null) {
+                if (_songs != null)
+                {
                     return _songs.Count();
                 }
                 return 0;

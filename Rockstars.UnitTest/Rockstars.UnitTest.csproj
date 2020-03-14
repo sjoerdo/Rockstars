@@ -64,9 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Rockstars\Rockstars.Droid.csproj">
-      <Project>{52FD0C25-5432-4CBA-8E60-DF37BEE90A86}</Project>
-      <Name>Rockstars.Droid</Name>
+    <ProjectReference Include="..\Rockstars.Implementation\Rockstars.Implementation.csproj">
+      <Project>{12daae33-b4a9-4a55-8718-3613c8bb0306}</Project>
+      <Name>Rockstars.Implementation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

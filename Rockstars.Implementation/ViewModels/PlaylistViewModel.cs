@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Rockstars.Implementation.Managers;
+﻿using Rockstars.Implementation.Managers;
 using Rockstars.Implementation.Models;
 using Rockstars.ViewModels;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Rockstars.Implementation.ViewModels
 {
@@ -61,7 +61,7 @@ namespace Rockstars.Implementation.ViewModels
         /// <inheritdoc/>
         public void InitializeSelectedPlaylist(string playlistName)
         {
-             SelectedPlaylist =  Playlists.Where(x => x.Name == playlistName).FirstOrDefault();
+            SelectedPlaylist = Playlists.Where(x => x.Name == playlistName).FirstOrDefault();
         }
 
         /// <inheritdoc/>

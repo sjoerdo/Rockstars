@@ -3,8 +3,8 @@ using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
-using Toolbar = Android.Support.V7.Widget.Toolbar;
 using Rockstars.Fragments;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace Rockstars
 {

@@ -21,7 +21,7 @@ namespace Rockstars.Implementation.Managers
 
             _playlists.Add(newPLaylist);
             return _playlists;
-                     
+
         }
 
         /// <inheritdoc/>
@@ -35,7 +35,7 @@ namespace Rockstars.Implementation.Managers
         {
             // Ophalen van playlist die moet worden geupdate
             var updatedPlaylist = GetPlaylists().Where(x => x.Name == playlistName).FirstOrDefault();
-            
+
             // Voeg de nieuwe song toe aan de playlist
             updatedPlaylist.Songs.Add(song);
             return updatedPlaylist.Songs;

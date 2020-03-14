@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Android.OS;
+﻿using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
 using Android.Views;
@@ -11,6 +9,8 @@ using Rockstars.Adapters;
 using Rockstars.Implementation.Models;
 using Rockstars.Implementation.ViewModels;
 using Rockstars.ViewModels;
+using System;
+using System.Collections.Generic;
 
 namespace Rockstars.Fragments
 {

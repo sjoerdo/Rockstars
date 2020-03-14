@@ -1,5 +1,4 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Support.Design.Widget;
@@ -12,6 +11,7 @@ using Rockstars.Adapters;
 using Rockstars.Implementation.Models;
 using Rockstars.Implementation.ViewModels;
 using Rockstars.ViewModels;
+using System;
 
 namespace Rockstars.Activities
 {

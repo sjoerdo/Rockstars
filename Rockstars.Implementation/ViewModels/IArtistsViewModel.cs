@@ -1,17 +1,13 @@
 ﻿using Rockstars.Implementation.Models;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rockstars.ViewModels
 {
     /// <summary>
     /// IArtistsViewModel
     /// </summary>
-    public interface IArtistsViewModel: INotifyPropertyChanged
+    public interface IArtistsViewModel : INotifyPropertyChanged
     {
         /// <summary>
         /// Initialiseert het viewmodel 

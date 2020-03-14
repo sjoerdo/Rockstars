@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Autofac;
 using Rockstars.Adapters;
-using SearchView = Android.Widget.SearchView;
-using Rockstars.ViewModels;
 using Rockstars.Implementation.Models;
-using Android.OS;
+using Rockstars.ViewModels;
+using System;
+using System.Collections.Generic;
+using SearchView = Android.Widget.SearchView;
 
 namespace Rockstars.Fragments
 {

@@ -1,7 +1,7 @@
-﻿using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rockstars.Implementation.Managers;
 using Rockstars.Implementation.Models;
+using System.Linq;
 
 namespace Rockstars.UnitTest
 {
@@ -12,16 +12,16 @@ namespace Rockstars.UnitTest
         public void SongIsCorrectlyAddedToPlaylist()
         {
             // Setup some testdata
-            var playlistName = "Sjoerds playllist";
+            var playlistName = "Sjoerds playlist";
             var song = new Song()
             {
                 Artist = "Robbie Williams",
                 Name = "Angels"
-            }; 
+            };
 
-            IPlaylistManager playlistManager = new PlaylistManager();     
+            IPlaylistManager playlistManager = new PlaylistManager();
             var currentPlaylists = playlistManager.GetPlaylists();
-            
+
             // Controleer of playlist leeg is
             Assert.IsTrue(currentPlaylists.Count() == 0);
 

@@ -5,7 +5,6 @@ using Rockstars.Implementation.Managers;
 using Rockstars.Implementation.ViewModels;
 using Rockstars.ViewModels;
 using System;
-using System.IO;
 
 namespace Rockstars
 {
